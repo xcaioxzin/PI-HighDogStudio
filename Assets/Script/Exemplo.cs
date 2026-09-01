@@ -8,7 +8,10 @@ public class Exemplo : MonoBehaviour
     {
         _nome = "Ruan";
         _nome = "jose";
+        _nome = "Daniel";
+
     }
+
 
     // Update is called once per frame
     void Update()
