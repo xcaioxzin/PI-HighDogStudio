@@ -10,6 +10,7 @@ public class Exemplo : MonoBehaviour
         _nome = "jose";
         _nome = "Daniel";
         _nome = "pedro";
+        _nome = "caio";
 
     }
 
