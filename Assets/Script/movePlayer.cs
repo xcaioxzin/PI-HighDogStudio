@@ -1,26 +1,31 @@
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class movePlayer : MonoBehaviour
 {
-    public float _SpeedX;
+    public float _velocidadeX;
+ 
+    [SerializeField] Vector2 _posicao;
+
+    Rigidbody2D _rig2d;
+
+    [SerializeField] bool _checkGround;
+
     public bool _isface;
-    [Serializefield] vector2 _pisicao;
-
-   // [Serializefield] rigidbody2d _rig2d
-
     // Start is called once before the first execution of Update after the MonoBehaviour is created
+
     void Start()
     {
-        _rig2d = GetComponet<rigidbody2d>();
-        _rig2d.AngularVelocity = 0;
+        _rig2d= GetComponent<Rigidbody2D>();
+        _rig2d.angularVelocity = 0;
     }
     public void SetMove(InputAction.CallbackContext value)
     {
-        _posicao = value.ReadValue<vector2>();
+        _posicao = value.ReadValue<Vector2>();
     }
     public void SetJump(InputAction.CallbackContext value)
     {
-        if (checkGround == true)
+        if ( _checkGround==true)
         {
             _rig2d.AddForceY(100);
         }
@@ -29,7 +34,8 @@ public class movePlayer : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        _rig2d.linearVelocityX = _pisicao.x * _velocidadeX;
+        _rig2d.linearVelocityX = _posicao.x * _velocidadeX;
+
         if (_posicao.x < 0 && _isface == false)
         {
             flip();
@@ -38,27 +44,28 @@ public class movePlayer : MonoBehaviour
         {
             flip();
         }
-        private void (OnTriggerEnter2D collision)
+    }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("Ground"))
         {
-            if (collision.gameObject.CompareTag("ground"))
-            {
-                Debug.Log("tocou no chão");
-                _checkGround = true;
-            }
-            private void OnTriggerExit2D(collider2D collision)
-            {
-                if (collision.gameObject.CompareTag("Ground"))
-                {
-                    Debug.Log("saio do chão");
-                    _checkground = false;
-                }
-            }
+            Debug.Log("tocou no chão");
+            _checkGround = true;
         }
-        private void flip()
+    }
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("Ground"))
         {
-            _isface = !_isface;
-            vector2 thescale = transform.localScale;
-            thescale.x *= -1;
-            transform.localScale = thescale;
+            Debug.Log("saio do chão");
+            _checkGround = false;
         }
+    }
+    private void flip()
+    {
+        _isface = !_isface;
+        Vector2 thescale = transform.localScale;
+        thescale.x *= -1;
+        transform.localScale = thescale;
+    }
 }
