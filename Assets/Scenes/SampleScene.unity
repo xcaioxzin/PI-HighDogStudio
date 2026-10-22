@@ -1050,8 +1050,8 @@ GameObject:
   - component: {fileID: 1761498026}
   - component: {fileID: 1761498025}
   - component: {fileID: 1761498029}
-  - component: {fileID: 1761498031}
   - component: {fileID: 1761498030}
+  - component: {fileID: 1761498031}
   m_Layer: 0
   m_Name: player
   m_TagString: Untagged
@@ -1243,7 +1243,7 @@ MonoBehaviour:
   m_ActionEvents:
   - m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1761498031}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: movePlayer, Assembly-CSharp
         m_MethodName: SetMove
         m_Mode: 0
@@ -1275,7 +1275,7 @@ MonoBehaviour:
     m_ActionName: 'Player/Crouch[/Keyboard/c]'
   - m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1761498031}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: movePlayer, Assembly-CSharp
         m_MethodName: SetJump
         m_Mode: 0
@@ -1361,6 +1361,8 @@ MonoBehaviour:
   _velocidadeX: 10
   _posicao: {x: 0, y: 0}
   _checkGround: 0
+  _anim: {fileID: 0}
+  _speedAnim: 0
   _isface: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
