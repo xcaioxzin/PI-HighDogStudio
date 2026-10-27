@@ -27,7 +27,7 @@ public class movePlayer : MonoBehaviour
     {
         if ( _checkGround==true)
         {
-            _rig2d.AddForceY(100);
+            _rig2d.AddForceY(150);
         }
     }
 
