@@ -1,3 +1,5 @@
+using System;
+using Unity.Mathematics;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -10,6 +12,10 @@ public class movePlayer : MonoBehaviour
     Rigidbody2D _rig2d;
 
     [SerializeField] bool _checkGround;
+
+    [SerializeField] Animator _anim;
+
+    [SerializeField] float _speedAnim;
 
     public bool _isface;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -35,6 +41,12 @@ public class movePlayer : MonoBehaviour
     void Update()
     {
         _rig2d.linearVelocityX = _posicao.x * _velocidadeX;
+
+        _speedAnim = MathF.Abs(_rig2d.linearVelocityX);
+
+        _anim.SetFloat("speed", _speedAnim);
+        _anim.SetFloat("pulo", _rig2d.linearVelocityY);
+        _anim.SetBool("Ground", _checkGround);
 
         if (_posicao.x < 0 && _isface == false)
         {
