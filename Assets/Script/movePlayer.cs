@@ -40,7 +40,7 @@ public class movePlayer : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        Debug.Log(_posicao.x);
         _rig2d.linearVelocityX = _posicao.x * _velocidadeX;
 
         _speedAnim = MathF.Abs(_rig2d.linearVelocityX);
