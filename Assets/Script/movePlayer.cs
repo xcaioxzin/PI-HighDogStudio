@@ -33,13 +33,14 @@ public class movePlayer : MonoBehaviour
     {
         if ( _checkGround==true)
         {
-            _rig2d.AddForceY(100);
+            _rig2d.AddForceY(125);
         }
     }
 
     // Update is called once per frame
     void Update()
     {
+
         _rig2d.linearVelocityX = _posicao.x * _velocidadeX;
 
         _speedAnim = MathF.Abs(_rig2d.linearVelocityX);
@@ -78,6 +79,6 @@ public class movePlayer : MonoBehaviour
         _isface = !_isface;
         Vector2 thescale = transform.localScale;
         thescale.x *= -1;
-        transform.localScale = thescale;
+        transform.localScale = thescale; 
     }
 }
