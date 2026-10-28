@@ -91,7 +91,7 @@ AnimatorStateTransition:
   m_PrefabAsset: {fileID: 0}
   m_Name: 
   m_Conditions:
-  - m_ConditionMode: 4
+  - m_ConditionMode: 3
     m_ConditionEvent: speed
     m_EventTreshold: 0.1
   m_DstStateMachine: {fileID: 0}
@@ -116,7 +116,7 @@ AnimatorStateTransition:
   m_PrefabAsset: {fileID: 0}
   m_Name: 
   m_Conditions:
-  - m_ConditionMode: 3
+  - m_ConditionMode: 4
     m_ConditionEvent: speed
     m_EventTreshold: 0.1
   m_DstStateMachine: {fileID: 0}
@@ -150,7 +150,7 @@ AnimatorController:
     m_Controller: {fileID: 9100000}
   - m_Name: pulo
     m_Type: 1
-    m_DefaultFloat: 1
+    m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 9100000}
@@ -209,24 +209,24 @@ AnimatorStateMachine:
   m_ChildStates:
   - serializedVersion: 1
     m_State: {fileID: -6627724357338179244}
-    m_Position: {x: 330, y: 0, z: 0}
+    m_Position: {x: 280, y: -20, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 4471665726795145244}
-    m_Position: {x: 200, y: 120, z: 0}
+    m_Position: {x: 140, y: -140, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 8065628808626275632}
-    m_Position: {x: 440, y: 110, z: 0}
+    m_Position: {x: 210, y: 110, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions:
   - {fileID: -4519845802692730285}
   m_EntryTransitions: []
   m_StateMachineTransitions: {}
   m_StateMachineBehaviours: []
-  m_AnyStatePosition: {x: 50, y: 10, z: 0}
-  m_EntryPosition: {x: 20, y: 150, z: 0}
+  m_AnyStatePosition: {x: -10, y: 10, z: 0}
+  m_EntryPosition: {x: -10, y: 170, z: 0}
   m_ExitPosition: {x: 580, y: -20, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
-  m_DefaultState: {fileID: -6627724357338179244}
+  m_DefaultState: {fileID: 8065628808626275632}
 --- !u!1102 &4471665726795145244
 AnimatorState:
   serializedVersion: 6
@@ -261,7 +261,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: correndo
+  m_Name: parado
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
@@ -275,7 +275,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 0}
+  m_Motion: {fileID: 7400000, guid: 47087f0ab92ac8c4e8369963f76e425c, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 

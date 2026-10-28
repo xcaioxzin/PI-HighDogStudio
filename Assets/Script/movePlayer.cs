@@ -17,7 +17,10 @@ public class movePlayer : MonoBehaviour
 
     [SerializeField] float _speedAnim;
 
+    [SerializeField] float _jumpForce;
+
     public bool _isface;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
 
     void Start()
@@ -33,14 +36,16 @@ public class movePlayer : MonoBehaviour
     {
         if ( _checkGround==true)
         {
-            _rig2d.AddForceY(125);
+            _checkGround = false;
+            _rig2d.AddForceY(10 * _jumpForce);
+            _rig2d.linearVelocityY = 0;
         }
     }
 
     // Update is called once per frame
     void Update()
     {
-        Debug.Log(_posicao.x);
+       
         _rig2d.linearVelocityX = _posicao.x * _velocidadeX;
 
         _speedAnim = MathF.Abs(_rig2d.linearVelocityX);
