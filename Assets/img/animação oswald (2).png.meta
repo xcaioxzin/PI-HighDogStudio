@@ -1,0 +1,608 @@
+fileFormatVersion: 2
+guid: 4c2afb0c30895254db4b68a3d7e3ad8d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3253311897181490330
+    second: "anima\xE7\xE3o oswald (2)_0"
+  - first:
+      213: -1008285724465344454
+    second: "anima\xE7\xE3o oswald (2)_1"
+  - first:
+      213: -8878346093752786732
+    second: "anima\xE7\xE3o oswald (2)_2"
+  - first:
+      213: 3273842921173415609
+    second: "anima\xE7\xE3o oswald (2)_3"
+  - first:
+      213: -4413286602005920965
+    second: "anima\xE7\xE3o oswald (2)_4"
+  - first:
+      213: 8229532039503598746
+    second: "anima\xE7\xE3o oswald (2)_5"
+  - first:
+      213: 4904491375828380697
+    second: "anima\xE7\xE3o oswald (2)_6"
+  - first:
+      213: 2128924278946786082
+    second: "anima\xE7\xE3o oswald (2)_7"
+  - first:
+      213: -3798748401072610924
+    second: "anima\xE7\xE3o oswald (2)_8"
+  - first:
+      213: 4402853948686940626
+    second: "anima\xE7\xE3o oswald (2)_9"
+  - first:
+      213: 2209562226247830544
+    second: "anima\xE7\xE3o oswald (2)_10"
+  - first:
+      213: -8875013800146888678
+    second: "anima\xE7\xE3o oswald (2)_11"
+  - first:
+      213: 6677018627216692637
+    second: "anima\xE7\xE3o oswald (2)_12"
+  - first:
+      213: 8334074756945443508
+    second: "anima\xE7\xE3o oswald (2)_13"
+  - first:
+      213: -8654503870437766960
+    second: "anima\xE7\xE3o oswald (2)_14"
+  - first:
+      213: 7280608941982583268
+    second: "anima\xE7\xE3o oswald (2)_15"
+  - first:
+      213: -1946965833133350687
+    second: "anima\xE7\xE3o oswald (2)_16"
+  - first:
+      213: 2799247959191265363
+    second: "anima\xE7\xE3o oswald (2)_17"
+  - first:
+      213: 4454066816785856903
+    second: "anima\xE7\xE3o oswald (2)_18"
+  - first:
+      213: -8997296736868170727
+    second: "anima\xE7\xE3o oswald (2)_19"
+  - first:
+      213: -4630364518526997033
+    second: "anima\xE7\xE3o oswald (2)_20"
+  - first:
+      213: 1248036064824734798
+    second: "anima\xE7\xE3o oswald (2)_21"
+  - first:
+      213: -7393936592456622591
+    second: "anima\xE7\xE3o oswald (2)_22"
+  - first:
+      213: 431423762222936001
+    second: "anima\xE7\xE3o oswald (2)_23"
+  - first:
+      213: 7541556728063561985
+    second: "anima\xE7\xE3o oswald (2)_24"
+  - first:
+      213: -8052207775993080902
+    second: "anima\xE7\xE3o oswald (2)_25"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "anima\xE7\xE3o oswald (2)_0"
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 783
+        width: 165
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9c0e070fe5162d20800000000000000
+      internalID: 3253311897181490330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "anima\xE7\xE3o oswald (2)_1"
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 779
+        width: 157
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a305529c979d102f0800000000000000
+      internalID: -1008285724465344454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "anima\xE7\xE3o oswald (2)_2"
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 779
+        width: 158
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d063e86447c9c480800000000000000
+      internalID: -8878346093752786732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "anima\xE7\xE3o oswald (2)_3"
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 779
+        width: 162
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b6f7fe8ac60f6d20800000000000000
+      internalID: 3273842921173415609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "anima\xE7\xE3o oswald (2)_4"
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 778
+        width: 156
+        height: 205
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b334273d73bd0c2c0800000000000000
+      internalID: -4413286602005920965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "anima\xE7\xE3o oswald (2)_5"
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 783
+        width: 168
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a94de4ab9cb253270800000000000000
+      internalID: 8229532039503598746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "anima\xE7\xE3o oswald (2)_6"
+      rect:
+        serializedVersion: 2
+        x: 1299
+        y: 785
+        width: 165
+        height: 199
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91ca734dbe0401440800000000000000
+      internalID: 4904491375828380697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "anima\xE7\xE3o oswald (2)_7"
+      rect:
+        serializedVersion: 2
+        x: 1512
+        y: 783
+        width: 160
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22be3582a557b8d10800000000000000
+      internalID: 2128924278946786082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "anima\xE7\xE3o oswald (2)_8"
+      rect:
+        serializedVersion: 2
+        x: 1718
+        y: 785
+        width: 165
+        height: 199
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 491ebf2b472284bc0800000000000000
+      internalID: -3798748401072610924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "anima\xE7\xE3o oswald (2)_12"
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 411
+        width: 189
+        height: 182
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d95dae9a01989ac50800000000000000
+      internalID: 6677018627216692637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "anima\xE7\xE3o oswald (2)_13"
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 436
+        width: 209
+        height: 185
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ba784be5d498a370800000000000000
+      internalID: 8334074756945443508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "anima\xE7\xE3o oswald (2)_14"
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 365
+        width: 192
+        height: 213
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d84057559605e780800000000000000
+      internalID: -8654503870437766960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "anima\xE7\xE3o oswald (2)_15"
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 357
+        width: 197
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e98767224be90560800000000000000
+      internalID: 7280608941982583268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "anima\xE7\xE3o oswald (2)_16"
+      rect:
+        serializedVersion: 2
+        x: 1230
+        y: 544
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e0a346e3ecfaf4e0800000000000000
+      internalID: -1946965833133350687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "anima\xE7\xE3o oswald (2)_17"
+      rect:
+        serializedVersion: 2
+        x: 1238
+        y: 534
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35025d5103de8d620800000000000000
+      internalID: 2799247959191265363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "anima\xE7\xE3o oswald (2)_18"
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 357
+        width: 182
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7893064db2600dd30800000000000000
+      internalID: 4454066816785856903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "anima\xE7\xE3o oswald (2)_19"
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 357
+        width: 174
+        height: 185
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 914013c994e232380800000000000000
+      internalID: -8997296736868170727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 577e45a9393727c4c905bc9365820d13
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      "anima\xE7\xE3o oswald (2)_0": 3253311897181490330
+      "anima\xE7\xE3o oswald (2)_1": -1008285724465344454
+      "anima\xE7\xE3o oswald (2)_10": 2209562226247830544
+      "anima\xE7\xE3o oswald (2)_11": -8875013800146888678
+      "anima\xE7\xE3o oswald (2)_12": 6677018627216692637
+      "anima\xE7\xE3o oswald (2)_13": 8334074756945443508
+      "anima\xE7\xE3o oswald (2)_14": -8654503870437766960
+      "anima\xE7\xE3o oswald (2)_15": 7280608941982583268
+      "anima\xE7\xE3o oswald (2)_16": -1946965833133350687
+      "anima\xE7\xE3o oswald (2)_17": 2799247959191265363
+      "anima\xE7\xE3o oswald (2)_18": 4454066816785856903
+      "anima\xE7\xE3o oswald (2)_19": -8997296736868170727
+      "anima\xE7\xE3o oswald (2)_2": -8878346093752786732
+      "anima\xE7\xE3o oswald (2)_20": -4630364518526997033
+      "anima\xE7\xE3o oswald (2)_21": 1248036064824734798
+      "anima\xE7\xE3o oswald (2)_22": -7393936592456622591
+      "anima\xE7\xE3o oswald (2)_23": 431423762222936001
+      "anima\xE7\xE3o oswald (2)_24": 7541556728063561985
+      "anima\xE7\xE3o oswald (2)_25": -8052207775993080902
+      "anima\xE7\xE3o oswald (2)_3": 3273842921173415609
+      "anima\xE7\xE3o oswald (2)_4": -4413286602005920965
+      "anima\xE7\xE3o oswald (2)_5": 8229532039503598746
+      "anima\xE7\xE3o oswald (2)_6": 4904491375828380697
+      "anima\xE7\xE3o oswald (2)_7": 2128924278946786082
+      "anima\xE7\xE3o oswald (2)_8": -3798748401072610924
+      "anima\xE7\xE3o oswald (2)_9": 4402853948686940626
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
