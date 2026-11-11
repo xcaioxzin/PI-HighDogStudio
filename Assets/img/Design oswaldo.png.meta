@@ -1,0 +1,611 @@
+fileFormatVersion: 2
+guid: c9a4a42059825e3409494402cdbffe70
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8773787249172565878
+    second: Design oswaldo_0
+  - first:
+      213: 7283534685389152110
+    second: Design oswaldo_1
+  - first:
+      213: -2929268030883107744
+    second: Design oswaldo_2
+  - first:
+      213: 3661545305467899878
+    second: Design oswaldo_3
+  - first:
+      213: -6165464883893226888
+    second: Design oswaldo_4
+  - first:
+      213: 776370065813103435
+    second: Design oswaldo_5
+  - first:
+      213: -270448640823545472
+    second: Design oswaldo_6
+  - first:
+      213: -4949938289845183067
+    second: Design oswaldo_7
+  - first:
+      213: 4292500214365873145
+    second: Design oswaldo_8
+  - first:
+      213: -4889594065265433410
+    second: Design oswaldo_9
+  - first:
+      213: -3981922303590998752
+    second: Design oswaldo_10
+  - first:
+      213: 401991910362550044
+    second: Design oswaldo_11
+  - first:
+      213: 331569845701418930
+    second: Design oswaldo_12
+  - first:
+      213: -5396777314128043505
+    second: Design oswaldo_13
+  - first:
+      213: -78092304403321033
+    second: Design oswaldo_14
+  - first:
+      213: -264971891836692625
+    second: Design oswaldo_15
+  - first:
+      213: 7042747273744121698
+    second: Design oswaldo_16
+  - first:
+      213: -3309754321336011830
+    second: Design oswaldo_17
+  - first:
+      213: 6733344101639753029
+    second: Design oswaldo_18
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Design oswaldo_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 967
+        width: 112
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a80b73e7bfe3d3680800000000000000
+      internalID: -8773787249172565878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Design oswaldo_1
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 967
+        width: 114
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6f5bdfd430541560800000000000000
+      internalID: 7283534685389152110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Design oswaldo_2
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 966
+        width: 114
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06ced4fee362957d0800000000000000
+      internalID: -2929268030883107744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Design oswaldo_3
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 938
+        width: 114
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6efc96d3e0c60d230800000000000000
+      internalID: 3661545305467899878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Design oswaldo_4
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 938
+        width: 114
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8723668aa5edf6aa0800000000000000
+      internalID: -6165464883893226888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Design oswaldo_5
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 938
+        width: 114
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b436903267836ca00800000000000000
+      internalID: 776370065813103435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Design oswaldo_6
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 938
+        width: 114
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 081b9b1e46c2f3cf0800000000000000
+      internalID: -270448640823545472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Design oswaldo_7
+      rect:
+        serializedVersion: 2
+        x: 1622
+        y: 804
+        width: 224
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ad5cade9594e4bb0800000000000000
+      internalID: -4949938289845183067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Design oswaldo_8
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 780
+        width: 443
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f3e09bc336029b30800000000000000
+      internalID: 4292500214365873145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Design oswaldo_9
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 808
+        width: 114
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb4eef39a1ca42cb0800000000000000
+      internalID: -4889594065265433410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Design oswaldo_10
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 801
+        width: 114
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02dd04313ce5db8c0800000000000000
+      internalID: -3981922303590998752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Design oswaldo_11
+      rect:
+        serializedVersion: 2
+        x: 1126
+        y: 790
+        width: 114
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1f8dbb3389249500800000000000000
+      internalID: 401991910362550044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Design oswaldo_12
+      rect:
+        serializedVersion: 2
+        x: 877
+        y: 669
+        width: 114
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bf93479409f99400800000000000000
+      internalID: 331569845701418930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Design oswaldo_13
+      rect:
+        serializedVersion: 2
+        x: 1029
+        y: 669
+        width: 114
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f02e28b40abca15b0800000000000000
+      internalID: -5396777314128043505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Design oswaldo_14
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 665
+        width: 114
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73f2950867f8aeef0800000000000000
+      internalID: -78092304403321033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Design oswaldo_15
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 368
+        width: 444
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f675c9fd771a25cf0800000000000000
+      internalID: -264971891836692625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Design oswaldo_16
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 200
+        width: 334
+        height: 335
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26f7e56d45ddcb160800000000000000
+      internalID: 7042747273744121698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Design oswaldo_17
+      rect:
+        serializedVersion: 2
+        x: 1511
+        y: 260
+        width: 224
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac3f3f60bf36112d0800000000000000
+      internalID: -3309754321336011830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Design oswaldo_18
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 44
+        width: 444
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54d85b029c4a17d50800000000000000
+      internalID: 6733344101639753029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Design oswaldo_0: -8773787249172565878
+      Design oswaldo_1: 7283534685389152110
+      Design oswaldo_10: -3981922303590998752
+      Design oswaldo_11: 401991910362550044
+      Design oswaldo_12: 331569845701418930
+      Design oswaldo_13: -5396777314128043505
+      Design oswaldo_14: -78092304403321033
+      Design oswaldo_15: -264971891836692625
+      Design oswaldo_16: 7042747273744121698
+      Design oswaldo_17: -3309754321336011830
+      Design oswaldo_18: 6733344101639753029
+      Design oswaldo_2: -2929268030883107744
+      Design oswaldo_3: 3661545305467899878
+      Design oswaldo_4: -6165464883893226888
+      Design oswaldo_5: 776370065813103435
+      Design oswaldo_6: -270448640823545472
+      Design oswaldo_7: -4949938289845183067
+      Design oswaldo_8: 4292500214365873145
+      Design oswaldo_9: -4889594065265433410
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
