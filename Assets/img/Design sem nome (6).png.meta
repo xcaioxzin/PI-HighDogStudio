@@ -1,0 +1,624 @@
+fileFormatVersion: 2
+guid: 1d2da2f11c22a4440860b52f260f67bd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3730340024242992394
+    second: Design sem nome (6)_0
+  - first:
+      213: 5461107700476313794
+    second: Design sem nome (6)_1
+  - first:
+      213: 3142467028189195292
+    second: Design sem nome (6)_2
+  - first:
+      213: -2291814498138008492
+    second: Design sem nome (6)_3
+  - first:
+      213: -5030804993203130961
+    second: Design sem nome (6)_4
+  - first:
+      213: 5471743398576210171
+    second: Design sem nome (6)_5
+  - first:
+      213: -166711881014786333
+    second: Design sem nome (6)_6
+  - first:
+      213: 7331446647930746316
+    second: Design sem nome (6)_7
+  - first:
+      213: 8582596578704930961
+    second: Design sem nome (6)_8
+  - first:
+      213: 4583502236090379801
+    second: Design sem nome (6)_9
+  - first:
+      213: -4168052951007720393
+    second: Design sem nome (6)_10
+  - first:
+      213: -2147262673788665873
+    second: Design sem nome (6)_11
+  - first:
+      213: 3342650710892745879
+    second: Design sem nome (6)_12
+  - first:
+      213: -58476708933999441
+    second: Design sem nome (6)_13
+  - first:
+      213: 7142569775184433108
+    second: Design sem nome (6)_14
+  - first:
+      213: -3813374487054312832
+    second: Design sem nome (6)_15
+  - first:
+      213: -671086225414078469
+    second: Design sem nome (6)_16
+  - first:
+      213: 5013366765267963932
+    second: Design sem nome (6)_17
+  - first:
+      213: -1809077651152843991
+    second: Design sem nome (6)_18
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Design sem nome (6)_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 968
+        width: 111
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fa039b138b2b3cc0800000000000000
+      internalID: -3730340024242992394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Design sem nome (6)_1
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 968
+        width: 111
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c08a07f480c9cb40800000000000000
+      internalID: 5461107700476313794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Design sem nome (6)_2
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 967
+        width: 112
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1c2895dc194c9b20800000000000000
+      internalID: 3142467028189195292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Design sem nome (6)_3
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 939
+        width: 112
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 454d4634bd6d130e0800000000000000
+      internalID: -2291814498138008492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Design sem nome (6)_4
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 939
+        width: 112
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fadadd5538dfe2ab0800000000000000
+      internalID: -5030804993203130961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Design sem nome (6)_5
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 939
+        width: 112
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf0493661a98feb40800000000000000
+      internalID: 5471743398576210171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Design sem nome (6)_6
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 939
+        width: 112
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e6c6407d68bfadf0800000000000000
+      internalID: -166711881014786333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Design sem nome (6)_7
+      rect:
+        serializedVersion: 2
+        x: 1623
+        y: 805
+        width: 222
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc5f3a3f1e78eb560800000000000000
+      internalID: 7331446647930746316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Design sem nome (6)_8
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 781
+        width: 441
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 198b034ad128b1770800000000000000
+      internalID: 8582596578704930961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Design sem nome (6)_9
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 809
+        width: 112
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91e2061dffedb9f30800000000000000
+      internalID: 4583502236090379801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Design sem nome (6)_10
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 802
+        width: 112
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73c8a22ace91826c0800000000000000
+      internalID: -4168052951007720393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Design sem nome (6)_11
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 791
+        width: 112
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: feffe5199f36332e0800000000000000
+      internalID: -2147262673788665873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Design sem nome (6)_12
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 670
+        width: 112
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79418f68c1b736e20800000000000000
+      internalID: 3342650710892745879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Design sem nome (6)_13
+      rect:
+        serializedVersion: 2
+        x: 1030
+        y: 670
+        width: 112
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa4ea583ebf303ff0800000000000000
+      internalID: -58476708933999441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Design sem nome (6)_14
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 666
+        width: 112
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4df4f491e518f1360800000000000000
+      internalID: 7142569775184433108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Design sem nome (6)_15
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 369
+        width: 442
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08a179fab1c241bc0800000000000000
+      internalID: -3813374487054312832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Design sem nome (6)_16
+      rect:
+        serializedVersion: 2
+        x: 1015
+        y: 201
+        width: 332
+        height: 333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bff398032a2dfa6f0800000000000000
+      internalID: -671086225414078469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Design sem nome (6)_17
+      rect:
+        serializedVersion: 2
+        x: 1512
+        y: 261
+        width: 222
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c10db84d28e039540800000000000000
+      internalID: 5013366765267963932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Design sem nome (6)_18
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 45
+        width: 442
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92bcfef067dd4e6e0800000000000000
+      internalID: -1809077651152843991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 0c083e28ec695c8468f1a640da224025
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Design sem nome (6)_0: -3730340024242992394
+      Design sem nome (6)_1: 5461107700476313794
+      Design sem nome (6)_10: -4168052951007720393
+      Design sem nome (6)_11: -2147262673788665873
+      Design sem nome (6)_12: 3342650710892745879
+      Design sem nome (6)_13: -58476708933999441
+      Design sem nome (6)_14: 7142569775184433108
+      Design sem nome (6)_15: -3813374487054312832
+      Design sem nome (6)_16: -671086225414078469
+      Design sem nome (6)_17: 5013366765267963932
+      Design sem nome (6)_18: -1809077651152843991
+      Design sem nome (6)_2: 3142467028189195292
+      Design sem nome (6)_3: -2291814498138008492
+      Design sem nome (6)_4: -5030804993203130961
+      Design sem nome (6)_5: 5471743398576210171
+      Design sem nome (6)_6: -166711881014786333
+      Design sem nome (6)_7: 7331446647930746316
+      Design sem nome (6)_8: 8582596578704930961
+      Design sem nome (6)_9: 4583502236090379801
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
