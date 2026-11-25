@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using Unity.Mathematics;
 using UnityEngine;
 using UnityEngine.InputSystem;
@@ -6,7 +7,9 @@ using UnityEngine.InputSystem;
 public class movePlayer : MonoBehaviour
 {
     public float _velocidadeX;
- 
+
+    bool canDash = true;
+    bool isDashing;
     [SerializeField] Vector2 _posicao;
 
     Rigidbody2D _rig2d;
@@ -18,6 +21,12 @@ public class movePlayer : MonoBehaviour
     [SerializeField] float _speedAnim;
 
     [SerializeField] float _jumpForce;
+
+    [Header("Dash Settings")]
+    [SerializeField] private float _dashSpeed;
+    [SerializeField] private float _dashDuration;
+    [SerializeField] private float dashingcooldown;
+    private bool _isDashing;
 
     public bool _isface;
 
@@ -42,10 +51,22 @@ public class movePlayer : MonoBehaviour
         }
     }
 
-    // Update is called once per frame
-    void Update()
+    public void FixedUpdate()
     {
-       
+        if (isDashing)
+        {
+            return;
+        }
+    }
+
+    // Update is called once per frame
+    public void Update()
+    {
+
+        if (isDashing)
+        {
+            return;
+        }
         _rig2d.linearVelocityX = _posicao.x * _velocidadeX;
 
         _speedAnim = MathF.Abs(_rig2d.linearVelocityX);
@@ -61,6 +82,11 @@ public class movePlayer : MonoBehaviour
         else if (_posicao.x > 0 && _isface == true)
         {
             flip();
+        }
+
+        if (Input.GetKeyDown(KeyCode.LeftShift) && canDash)
+        {
+            StartCoroutine(Dash());
         }
     }
     private void OnTriggerEnter2D(Collider2D collision)
@@ -85,5 +111,19 @@ public class movePlayer : MonoBehaviour
         Vector2 thescale = transform.localScale;
         thescale.x *= -1;
         transform.localScale = thescale; 
+    }
+
+    private IEnumerator Dash()
+    {
+        canDash = false;
+        isDashing = true;
+        float originalGravity = _rig2d.gravityScale;
+        _rig2d.gravityScale = 0f;
+        _rig2d.linearVelocity = new Vector2(transform.localScale.x * _dashSpeed, 0f);
+        yield return new WaitForSeconds(_dashDuration);
+        _rig2d.gravityScale = originalGravity;
+        isDashing = false;
+        yield return new WaitForSeconds(dashingcooldown);
+        canDash = true;
     }
 }

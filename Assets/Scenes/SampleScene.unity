@@ -6928,6 +6928,9 @@ MonoBehaviour:
   _anim: {fileID: 1761498029}
   _speedAnim: 0
   _jumpForce: 25
+  _dashSpeed: 20
+  _dashDuration: 0.25
+  dashingcooldown: 1
   _isface: 0
 --- !u!1 &1781004708
 GameObject:
