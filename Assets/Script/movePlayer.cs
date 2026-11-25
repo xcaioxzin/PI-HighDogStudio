@@ -55,9 +55,9 @@ public class movePlayer : MonoBehaviour
     }
     public void SetDash(InputAction.CallbackContext value)
     {
+
+
         
-       
-        StartCoroutine(Dash());
        
     }
     private void Awake()
@@ -103,7 +103,7 @@ public class movePlayer : MonoBehaviour
             flip();
         }
 
-        if (Input.GetKeyDown(KeyCode.LeftShift) && canDash)
+        if (Input.GetKeyDown(KeyCode.Joystick1Button4) && canDash)
         {
             StartCoroutine(Dash());
         }
