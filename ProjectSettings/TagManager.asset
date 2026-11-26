@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Ground
   - Void
+  - checkpoint
   layers:
   - Default
   - TransparentFX

@@ -1196,7 +1196,7 @@ GameObject:
   - component: {fileID: 358263669}
   m_Layer: 0
   m_Name: checkpoint
-  m_TagString: Respawn
+  m_TagString: checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7149,7 +7149,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _velocidadeX: 6
   _posicao: {x: 0, y: 0}
-  respawnPoint: {fileID: 0}
+  respawnPoint: {fileID: 358263670}
   _checkGround: 0
   _anim: {fileID: 1761498029}
   _speedAnim: 0

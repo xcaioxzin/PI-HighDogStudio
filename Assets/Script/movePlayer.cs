@@ -53,13 +53,7 @@ public class movePlayer : MonoBehaviour
             _rig2d.linearVelocityY = 0;
         }
     }
-    public void SetDash(InputAction.CallbackContext value)
-    {
-
-
-        
-       
-    }
+    
     private void Awake()
     {
         _rig2d = GetComponent<Rigidbody2D>();
@@ -107,7 +101,14 @@ public class movePlayer : MonoBehaviour
         {
             StartCoroutine(Dash());
         }
+        if (Input.GetKeyDown(KeyCode.LeftShift) && canDash)
+        {
+            StartCoroutine(Dash());
+        }
+
     }
+
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("Ground"))
@@ -115,14 +116,26 @@ public class movePlayer : MonoBehaviour
             Debug.Log("tocou no chão");
             _checkGround = true;
         }
+         if (collision.CompareTag("checkpoint"))
+        {
+            respawnPoint = collision.transform;
 
-       
+        }
 
+         if (collision.CompareTag("Void"))
+        {
+            respawnPoint.position = collision.transform.position;
+            Debug.Log("reseta cena");
+        }
 
 
     }
 
-    
+    public void Respawn()
+    {
+        transform.position = respawnPoint.position;
+        _rig2d.linearVelocity = Vector2.zero;
+    }
 
     private void OnTriggerExit2D(Collider2D collision)
     {
