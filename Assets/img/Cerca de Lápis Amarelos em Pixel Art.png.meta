@@ -125,10 +125,10 @@ TextureImporter:
       name: "Cerca de L\xE1pis Amarelos em Pixel Art_0"
       rect:
         serializedVersion: 2
-        x: 38
-        y: 52
-        width: 1906
-        height: 703
+        x: 39
+        y: 53
+        width: 1904
+        height: 701
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -147,10 +147,10 @@ TextureImporter:
       name: "Cerca de L\xE1pis Amarelos em Pixel Art_1"
       rect:
         serializedVersion: 2
-        x: 1789
-        y: 86
-        width: 10
-        height: 11
+        x: 1790
+        y: 87
+        width: 8
+        height: 9
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -169,10 +169,10 @@ TextureImporter:
       name: "Cerca de L\xE1pis Amarelos em Pixel Art_2"
       rect:
         serializedVersion: 2
-        x: 817
-        y: 52
-        width: 17
-        height: 7
+        x: 818
+        y: 53
+        width: 15
+        height: 5
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -191,10 +191,10 @@ TextureImporter:
       name: "Cerca de L\xE1pis Amarelos em Pixel Art_3"
       rect:
         serializedVersion: 2
-        x: 933
-        y: 52
-        width: 35
-        height: 7
+        x: 934
+        y: 53
+        width: 33
+        height: 5
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -213,7 +213,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 43c654944b5532249b99642bb9dac6ac
     internalID: 0
     vertices: []
     indices: 
