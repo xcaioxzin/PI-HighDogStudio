@@ -13,7 +13,6 @@ public class movePlayer : MonoBehaviour
     bool isDashing;
     [SerializeField] Vector2 _posicao;
 
-    [SerializeField] private Transform respawnPoint;
     Rigidbody2D _rig2d;
 
     [SerializeField] bool _checkGround;
@@ -54,16 +53,7 @@ public class movePlayer : MonoBehaviour
         }
     }
     
-    private void Awake()
-    {
-        _rig2d = GetComponent<Rigidbody2D>();
-        if (respawnPoint == null)
-        {
-            GameObject startPoint = new GameObject("InitialRespawnPoint");
-            startPoint.transform.position = transform.position;
-            respawnPoint = startPoint.transform;
-        }
-    }
+    
     public void FixedUpdate()
     {
         if (isDashing)
@@ -116,26 +106,11 @@ public class movePlayer : MonoBehaviour
             Debug.Log("tocou no chão");
             _checkGround = true;
         }
-         if (collision.CompareTag("checkpoint"))
-        {
-            respawnPoint = collision.transform;
 
-        }
-
-         if (collision.CompareTag("Void"))
-        {
-            respawnPoint.position = collision.transform.position;
-            Debug.Log("reseta cena");
-        }
 
 
     }
 
-    public void Respawn()
-    {
-        transform.position = respawnPoint.position;
-        _rig2d.linearVelocity = Vector2.zero;
-    }
 
     private void OnTriggerExit2D(Collider2D collision)
     {
@@ -146,6 +121,7 @@ public class movePlayer : MonoBehaviour
 
         }
     }
+    
     private void flip()
     {
         _isface = !_isface;
