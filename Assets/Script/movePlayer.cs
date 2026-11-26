@@ -3,6 +3,7 @@ using System.Collections;
 using Unity.Mathematics;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.UIElements;
 
 public class movePlayer : MonoBehaviour
 {
@@ -12,9 +13,11 @@ public class movePlayer : MonoBehaviour
     bool isDashing;
     [SerializeField] Vector2 _posicao;
 
+    [SerializeField] private Transform respawnPoint;
     Rigidbody2D _rig2d;
 
     [SerializeField] bool _checkGround;
+    private bool _checkVoid;
 
     [SerializeField] Animator _anim;
 
@@ -50,7 +53,23 @@ public class movePlayer : MonoBehaviour
             _rig2d.linearVelocityY = 0;
         }
     }
+    public void SetDash(InputAction.CallbackContext value)
+    {
 
+
+        
+       
+    }
+    private void Awake()
+    {
+        _rig2d = GetComponent<Rigidbody2D>();
+        if (respawnPoint == null)
+        {
+            GameObject startPoint = new GameObject("InitialRespawnPoint");
+            startPoint.transform.position = transform.position;
+            respawnPoint = startPoint.transform;
+        }
+    }
     public void FixedUpdate()
     {
         if (isDashing)
@@ -84,7 +103,7 @@ public class movePlayer : MonoBehaviour
             flip();
         }
 
-        if (Input.GetKeyDown(KeyCode.LeftShift) && canDash)
+        if (Input.GetKeyDown(KeyCode.Joystick1Button4) && canDash)
         {
             StartCoroutine(Dash());
         }
@@ -96,13 +115,22 @@ public class movePlayer : MonoBehaviour
             Debug.Log("tocou no chão");
             _checkGround = true;
         }
+
+       
+
+
+
     }
+
+    
+
     private void OnTriggerExit2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("Ground"))
         {
             Debug.Log("saio do chão");
             _checkGround = false;
+
         }
     }
     private void flip()
